@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: #833ab4;
+    background: -webkit-linear-gradient(45deg,125deg,#833ab4, #f7ff00, #fcb045, #fd1d1d); 
+    background: linear-gradient(125deg,#833ab4, #f7ff00, #fcb045, #fd1d1d); 
+    background-size: 450%;
+    animation: bg 10s infinite linear;
+}
+
+@keyframes bg {
+    0% {
+        background-position: 0% 0%;
+    } 50% {
+        background-position: 100% 50%;
+    } 100% {
+        background-position: 0% 100%;
+    }
+    
+}
